@@ -1,0 +1,84 @@
+@charset "utf-8";
+/* ID Elements */
+#header {
+	background-color: #6cff70;
+	width: auto;
+	height: 70px;
+	margin-top: 0;
+	margin-left: 0;
+	margin-right: 0;
+	margin-bottom: 10px;
+	right: 0;
+	left: 0;
+	top: 0;
+	position: absolute;
+}
+#header h1 {
+	font-style: italic;
+	font-size: 300%;
+	font-family: Helvetica;
+	font-variant: normal;
+	font-weight: bold;
+	text-align: center;
+	color: black;
+	margin: 0;
+	padding: 0;
+}
+#footer {
+	margin: 0;
+	background-color: #6cff70;
+	right: 0;
+	left: 0;
+	bottom: 0;
+	width: auto;
+	height: 50px;
+	position: absolute;
+	text-align: center;
+	text-font: Helvetica;
+}
+#nav {
+	margin-top: -5px;
+	float: left;
+	margin-right: 10px;
+	margin-left: -42px;
+	left: 0;
+	top: 80px;
+	position: absolute;
+}
+#nav ul {
+	list-style-type: none;
+	font-family: Calibri;
+	border: black 1px solid;
+}
+#nav li {
+	border-bottom: 1px solid black;
+	text-align: center;
+}
+#nav li a {
+	display: block;
+	padding: 8px 16px;
+	text-decoration: none;
+	color: black;
+}
+#nav li a:hover {
+	background-color: darkgray;
+	color: white;
+}
+#nav li:last-child {
+	border-bottom: none;
+}
+/* Classes */
+.active {
+	background-color: #6cff70;
+	color: white;
+}
+.content {
+	margin: 10px;
+	padding: 10px;
+	position: absolute;
+	left: 120px;
+	top: 50px;
+}
+.content img {
+	object-position: center;
+}
